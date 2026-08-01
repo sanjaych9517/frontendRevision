@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student IT Dashboard</title>
+  </head>
+  <body>
+    <h1>Student IT Dashboard</h1>
+    <p>
+      This dishboard present <b>structured data</b> of students enrolled in the
+      current sesion. It covers <i>contant details</i>
+      <mark>social profiles</mark>, <u>personal hobbies</u>, and formatted
+      contant to demomstrate the power of HTML elements
+    </p>
+    <h2>Student Directory</h2>
+    <p>
+      This table demonstrates <i>rowspan, colspan</i>formatting tags,
+      hyperlinks, and lists--all in raw HTML Without CSS styling
+    </p>
+    <table border="1">
+      <caption>
+        <b>Complete Student Record </b>
+      </caption>
+      <tr>
+        <th rowspan="2">Full Name</th>
+        <th colspan="2">Contact Info</th>
+        <th rowspan="2">Hobbies</th>
+        <th colspan="2">Social profiles</th>
+      </tr>
+
+      <tr>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Linkdin</th>
+        <th>GitHub</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2"><b>John Doe</b></td>
+        <td><a href="john@example.com">john@example.com</a></td>
+        <td>1234567890</td>
+        <td rowspan="2">
+          <ul>
+            <li>Reading</li>
+            <li><mark>Travelling</mark></li>
+            <li><b>Coding</b></li>
+          </ul>
+        </td>
+        <td><a href="#">Profile</a></td>
+        <td><a href="#">Repo</a></td>
+      </tr>
+
+      <tr>
+        <td><a href="doe.john@example.com">doe.john@example.com</a></td>
+        <td>9876543210</td>
+        <td><a href="#">Alt Linkdin</a></td>
+        <td><a href="#">Alt Repo</a></td>
+      </tr>
+
+      <tr>
+        <td><b>Jane Smith</b></td>
+        <td colspan="2">
+          <ol>
+            <li><a href="jane@example.com">jane@example.com</a></li>
+            <li><b>1122334455</b></li>
+          </ol>
+        </td>
+        <td>
+          <ul type="square">
+            <li>Painting</li>
+            <li>Music</li>
+          </ul>
+        </td>
+        <td colspan="2">
+          <ul>
+            <li><a href="#">Linkdin</a></li>
+            <li><a href="#">Github</a></li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Mark Lee</b></td>
+        <td><a href="#">mark@example.com</a></td>
+        <td>6677889900</td>
+        <td>
+          <ol>
+            <li>Photography</li>
+            <li><mark>Gaming</mark></li>
+            <li>Blogging</li>
+          </ol>
+        </td>
+        <td><a href="#">Profile</a></td>
+        <td><a href="#">Repo</a></td>
+      </tr>
+    </table>
+  </body>
+</html>
