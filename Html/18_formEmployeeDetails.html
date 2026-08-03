@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Employee Details</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Employee Details :</legend>
+        <label for="empId">Employee Id</label><br />
+        <input
+          type="text"
+          id="empId"
+          placeholder="Enter Employee id"
+          required
+          maxlength="15"
+        /><br /><br />
+
+        <label for="name">Name :</label><br />
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter Employee id"
+          required
+          maxlength="20"
+        /><br /><br />
+
+        <label for="age">Age :</label> <br />
+        <input type="number" id="age" required min="1" /><br /><br />
+
+        <label for="desi">Designation :</label><br />
+        <input
+          type="text"
+          id="desg"
+          placeholder="Enter Designation"
+        /><br /><br />
+
+        <label for="email">Email Id : </label><br />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Designation"
+          required
+        /><br /><br />
+
+        <label for="">Select Gender :</label> <br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label> <br /><br />
+
+        <label for="">Skills</label><br />
+        <input type="checkbox" /> <label for="">Java</label><br />
+        <input type="checkbox" /> <label for="">Python</label><br />
+        <input type="checkbox" /> <label for="">Express</label><br />
+        <input type="checkbox" /> <label for="">SQL</label><br /><br />
+
+        <label for="date">D.O.B. :</label><br />
+        <input type="date" name="DOB" id="date" required /> <br><br>
+
+        <label for="feedback">Feedback :</label><br>
+        <textarea name="Feedback" id="feedback"></textarea><br><br>
+
+        <label for="resume">Resume : </label><br>
+        <input type="file" name="" id=""><br><br>
+
+        <label for="github"> Github Profile :</label><br>
+        <input type="url" id="github">
+        <br><br>
+        <button>Register Here</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
