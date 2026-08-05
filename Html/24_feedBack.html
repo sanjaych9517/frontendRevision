@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feed Back Form</title>
+  </head>
+  <body>
+    <h3>Feed Back Form</h3>
+
+    <table>
+      <form action="">
+        <!-- first name -->
+        <tr>
+          <td>
+            <label for="fname">Full Name:</label><br />
+            <input
+              type="text"
+              placeholder="Enter your name"
+              required
+              id="fname"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+
+        <!-- Email -->
+
+        <tr>
+          <td>
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              placeholder="example@email.com"
+              required
+              id="email"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+
+        <!-- Password -->
+
+        <tr>
+          <td>
+            <label for="pass">Password:</label><br />
+            <input
+              type="password"
+              required
+              placeholder="Enter Password"
+              id="pass"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+        <!-- Rate our service -->
+        <tr>
+          <td>
+            <label for="rate">rate our service(1-10):</label><br />
+            <input
+              type="tel"
+              pattern="[1-9]{1}"
+              maxlength="1"
+              size="5"
+              max="10"
+              placeholder="5"
+              required
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+
+        <!-- date -->
+        <tr>
+          <td>
+            <label for="date">Date of Visit:</label><br />
+            <input type="date" id="date" required />
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+        <!-- radio -->
+        <tr>
+          <td>How did you hear about us?</td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" name="radio" />Friends <br />
+            <input type="radio" name="radio" />Internet <br />
+            <input type="radio" name="radio" />Advertisement <br />
+          </td>
+        </tr>
+
+        <!--What did you like about our  service -->
+
+        <tr>
+          <td><br /></td>
+        </tr>
+
+        <tr>
+          <td>What did you like about our service (select all that apply)</td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" /> Quality <br />
+            <input type="checkbox" /> Speed <br />
+            <input type="checkbox" /> Customer Supoort <br />
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+
+        <!-- Additional comment -->
+
+        <tr>
+          <td>
+            <label for="comment">Additional Comments</label><br />
+            <textarea
+              name=""
+              id="comment"
+              placeholder="write your feedback here..."
+            >
+            </textarea>
+          </td>
+        </tr>
+
+        <tr>
+          <td><br /></td>
+        </tr>
+
+        <tr>
+          <td>
+            <button type="submit">Submit Feedback</button>
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
