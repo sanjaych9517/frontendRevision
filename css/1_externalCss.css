@@ -1,0 +1,19 @@
+#heading {
+  /* center,right,left,justify */
+  text-align: center;
+  color: darkblue;
+  background-color: lightblue;
+  font-style: italic;
+}
+.para1 {
+  color: darkred;
+  font-family: Georgia;
+}
+.para2 {
+  background-color: lightcoral;
+}
+.heading2 {
+  font-family: cursive;
+  text-align: right;
+  color: blue;
+}

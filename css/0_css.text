@@ -1,0 +1,36 @@
+css : cascadyng style sheet
+----------------------------
+css is used to style weeb page.
+style(color, size, underline/overline, animation, test, alignment, box, container, aligment, layout, ...)
+
+propertise---
+property-namw : value;
+
+Types of css:
+------------
+1. Inline Css: style attribute
+2. internal css: <style> css code will be written here</sty>, in head section
+3. Externam Css: you have to create  style.css and link with link tag <link rel="stylesheet" href="style.css"/> in head section
+
+Inline css >> External & Internal 
+
+syntax: 
+element/selector{
+    color: blue;
+    font-size : 18px;
+    font-family : "Arial";
+}
+
+div - block level eleement. it is like a container.
+
+selector:
+1. element selector: you can add style using element.
+2. id selector: attribute. id="id1", when you want to change single element property. id must be unique --> #id1
+3. class selector: class="classA". multiple element with same property, class can be same and unique also and multiple also.classA
+5p
+p - same propertise
+
+selector's value(is1, classA) is not same as element's name
+h1 is="heading"
+img class="image1"
+must be meangful
