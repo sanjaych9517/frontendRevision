@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    width: 90%;
+    flex-wrap: wrap;
+  
+}
+div{
+width: 30%;
+margin: 10px;
+border-radius: 10px;
+ height: 100%;
+ border: 2px solid black;
+}
+
+p{
+    text-align: justify;
+}
+
+img{
+    height: 300px;
+    width: 90%;
+    padding: 15px;
+}
