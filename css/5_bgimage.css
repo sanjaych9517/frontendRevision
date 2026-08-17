@@ -1,0 +1,14 @@
+.myDiv{
+  width: 100%;
+  text-align: justify;
+  background-image: url("../images/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
