@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+header{
+    background-color: rgb(42, 45, 46);
+   height: 80px;
+   width: 100%;
+   color: white;
+}
+
+nav{
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    color: white;
+}
+
+main h2{
+    text-decoration: underline;
+}
+
+ a{
+    text-decoration: none;
+    margin: 8px;
+    font-size: 17px;
+}
+
+section div{
+    height: 125px;
+    width: 80%;
+    background-color: rgba(181, 196, 203, 0.427);
+}
+
+footer section h3{
+    text-decoration: underline;
+    font-size: 20px;
+}
