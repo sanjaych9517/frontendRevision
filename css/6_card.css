@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.hhvmBNpvyKYacgPBSxrjtwHaEM?r=0&pid=Api&P=0&h=180");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top{
+    height: 50px;
+    padding: 5px 0 0 0;
+    max-width: 30rem;
+    margin:  1% 39%;
+    border: 5px solid rgb(228, 228, 71);
+}
+h1{
+    text-align: center;
+   color: rgb(228, 228, 71);
+}
+.outer{
+    height: 300px;
+    max-width: 33rem;
+    margin:  1% 39%;
+    border: 5px solid;
+    border: hidden;
+}
+
+.inner{
+    border: 3px solid;
+    margin: 10px;
+    background-color: #fff;
+    padding: 30px 30px 30px 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: rgb(26, 16, 206);
+}
+
+.foot{
+    border-top: 5px solid rgb(228, 228, 71);
+    height: 60px;
+    background-color: rgb(9, 9, 9);
+    width: 96%;
+    text-align: center;
+    color: rgb(125, 122, 122);
+    padding: 22px;
+    margin: 0 0px 0 10px;
+    
+}
