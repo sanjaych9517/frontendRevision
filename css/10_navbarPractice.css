@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../images/mountain-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+
+.nav-link a{
+  text-decoration: none; 
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+.nav-icon a{
+    text-decoration: none; 
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    
+}
+.fa-google-plus-g{
+    margin-right: 30px;
+}
+.nav-icon{
+    color: yellow;
+    float: right;
+}
+.nav-link{
+    color: white;
+   float: right;
+   margin-right: 30px;
+    
+}
+
+
+
+.main{
+    margin-top: 70px;
+   color: white;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 5px 15px;
+    font-size: 1.1em;
+    background-color: rgb(222, 175, 105);
+    border: none;
+    border-radius: 20px;
+}
+
