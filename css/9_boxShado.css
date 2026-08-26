@@ -1,0 +1,31 @@
+ 
+      .container {
+        margin-left: 5%;
+        height: 250px;
+        width: 90%;
+       
+      }
+
+      .inout {
+        margin-top: 75px;
+        height: 100px;
+        width: 36%;
+        border: 2px solid black;
+        text-align: center;
+      }
+      p{
+        margin-top: 35px;
+        font-size: 1.3em;
+      }
+
+      .outer {
+        float: left;
+        margin-left: 9%;
+        box-shadow: 0px 0px 45px 20px rgb(135, 223, 226);
+      }
+      .inner {
+        float: left;
+        margin-left: 9%;
+         box-shadow: 0px 0px 45px 15px rgb(184, 116, 196) inset;
+      }
+    
