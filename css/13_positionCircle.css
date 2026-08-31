@@ -1,0 +1,27 @@
+.main{
+            margin-top: 200px;
+            text-align: center;
+            transition: transform 1s ease;
+        }
+         .box{
+            background-color: lightgreen;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            border-radius: 50%;
+            position: absolute;
+            
+         }
+
+         .main:hover{
+            .box1{
+                 transition-duration: 2s;
+                translate: -100px;
+                opacity: 0.5;
+            }
+            .box2{
+                transition-duration: 2s;
+                translate: -50px;
+                opacity: 0.75;
+            }
+         }
