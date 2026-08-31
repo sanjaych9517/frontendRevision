@@ -1,0 +1,52 @@
+ * {
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+      }
+      .main {
+        text-align: center;
+        transition: transform 1s ease;
+        transform-origin: top left;
+        
+      }
+
+      .box {
+        height: 200px;
+        width: 200px;
+        border: 2px solid;
+        display: inline-block;
+        text-align: center;
+        border-radius: 8px;
+        position: absolute;
+      }
+      .box1 {
+        background-color: lightgreen;
+      }
+      .box2 {
+        background-color: lightpink;
+      }
+
+      .box3 {
+        background-color: lightblue;
+      }
+      
+
+      .main:hover {
+        .box1 {
+          transform-origin: bottom right;
+          transition-duration: 1s;
+          transform: rotate(20deg);
+        }
+
+        .box2 {
+          transform-origin: bottom right;
+          transition-duration: 1s;
+          transform: rotate(40deg);
+        }
+
+        .box3 {
+          transform-origin: bottom right;
+          transition-duration: 1s;
+          transform: rotate(60deg);
+        }
+      }
