@@ -1,0 +1,26 @@
+.main{
+    text-align: center;
+    margin-top: 200px;
+    transition: transform 1s ease;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    display: inline-block;
+    position: absolute;
+}
+
+.main:hover{
+    
+   .box-3{
+         transition-duration: 2s;
+         transform: translate(100px, 100px);
+          
+   }
+   .box-2{
+         transition-duration: 2s;
+        transform: translate(50px, 50px);
+           
+   }
+}
