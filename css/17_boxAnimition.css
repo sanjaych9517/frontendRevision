@@ -1,0 +1,53 @@
+.box {
+    height: 150px;
+    width: 150px;
+    border: 7px solid rgb(255, 238, 7);
+    background-color: white;
+    animation: move 4s linear 0s 10;
+    position: relative;
+
+}
+
+@keyframes move {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+
+    40% {
+        left: 700px;
+        top: 100px;
+        background-color: red;
+        transform: rotate(360deg);
+    }
+
+    60% {
+        top: 350px;
+        left: 400px;
+        background-color: green;
+        transform: rotate(180deg);
+    }
+
+    80% {
+        top: 100px;
+        left: 700px;
+        background-color: red;
+        transform: rotate(360deg);
+
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+}
+
+move {}
+
+body {
+    background-color: aquamarine;
+}
