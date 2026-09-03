@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafic light</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: p;
+            background-color: rgb(101, 99, 99);
+        }
+
+        .container {
+            height: 400px;
+            width: 200px;
+            border: 5px solid red;
+            margin-left: 40%;
+            text-align: center;
+            margin-top: 20vh;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            display: inline-block;
+            margin-top: 25px;
+            border-radius: 50%;
+
+        }
+
+        .box1 {
+            background-color: black;
+            animation: red 3s steps(1) 1s 1;
+        }
+
+        .box2 {
+            background-color: black;
+            animation: yellow 3s steps(1) 5s 1;
+        }
+
+        .box3 {
+            background-color: black;
+            animation: green 3s steps(1) 8s 1;
+        }
+
+        @keyframes red {
+            0% {
+
+                background-color: red;
+            }
+
+            100% {
+                background-color: red;
+            }
+        }
+
+        @keyframes yellow {
+            0% {
+                background-color: yellow; 
+            }
+
+            100% {
+
+                background-color: yellow;
+            }
+        }
+
+        @keyframes green {
+            0% {
+                background-color: green;
+            }
+
+            100% {
+
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+    </div>
+
+</body>
+
+</html>
