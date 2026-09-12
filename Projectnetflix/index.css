@@ -1,7 +1,7 @@
 *{
 margin: 0;
 padding: 0;
-/* background-color: #3f3d3d; */
+
 
 }
 
@@ -24,7 +24,7 @@ z-index: 2;
 font-size: 1.5em;
 padding-left: 3rem;
 text-transform: uppercase;
-border-radius: 20%;
+
 
 }
 
@@ -114,3 +114,102 @@ background-color: #E50914;
 font-weight: 700;
 }
 
+/* hr line */
+
+
+/* imgpart */
+.imgdiv{
+ text-align: center;
+background-color: black;
+ border: 1px solid black;
+padding: 30px;
+}
+
+.imgdiv:hover{
+ border: 1px solid white;
+}
+
+.trending{
+ 
+padding:1rem ;
+color: aliceblue;
+}
+.imgpart{
+display: flex;
+justify-content: space-around;
+align-items: center;
+ padding: 2rem;
+
+}
+
+.imgpart img{
+border-radius: 5px;
+border: 2px solid black;
+opacity: 0.8;
+}
+
+.imgpart img:hover{
+ border: 2px solid #E50914;
+opacity: 1;
+}
+
+
+/* resion to join */
+
+.resion{
+
+color: white;
+display: flex;
+ justify-content: center;
+align-items: center;
+}
+
+.join-content{
+border: 1px solid white;
+margin: 15px 30px;
+padding: 25px 30px;
+ height: 300px;
+width: 200px;
+border-radius: 15px;
+display: flex;
+flex-direction: column;
+gap: 1.9rem;
+text-align: justify;
+font-size: 1.3em;
+opacity: 0.8;
+}
+
+.join-content:hover{
+border: 1px solid #E50914 ;
+color: #E50914;
+opacity: 1;
+}
+
+/* askedquestion */
+
+.askedquestion{
+  color: white;
+  display: flex;
+  text-align: left;
+justify-content: space-between;
+flex-direction: column;
+
+
+}
+
+.qued{
+margin: 10px 75px;
+background-color: rgb(50, 49, 49);
+padding: 25px;
+font-size: 1.5em;
+}
+
+.fa-plus{
+float: right;
+}
+
+/* emailSignUp */
+
+.emailSignUp{
+
+}
