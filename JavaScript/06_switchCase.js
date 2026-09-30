@@ -107,4 +107,4 @@ switch (day) {
 // 3. Withdraw money
 // 4. Exit.
 // Display the apporpriate message for each choice
-let choice = parseInt(prompt("ATM MENU:\n1.Check balance \n2. Deposit Money \n3. Withdraw Money \n4. Exit \n Enter Your Choice:"))
+let choice = parseInt(prompt("ATM MENU:\n1.Check balance \n2. Deposit Money \n3. Withdraw Money \n4. Exit \n Enter Your Choice:")) 
