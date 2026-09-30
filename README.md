@@ -11,3 +11,5 @@
 # HTML was end
 
 # css was start today
+
+finish if else switch in js
