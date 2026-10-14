@@ -15,7 +15,7 @@ switch (department.toUpperCase()) {
 
         break;
 
-    case Sales:
+    case sal:
         bonous =  15
 
         break;
