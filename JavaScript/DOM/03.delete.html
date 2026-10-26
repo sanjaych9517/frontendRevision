@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h4 id="heading">This heading will be removed using delete method</h4>
+    <ul id="lists">
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>TS</li>
+    </ul>
+
+    <script>
+        let hed = document.getElementById("heading")
+        hed.remove()
+
+        let list = document.getElementById("lists")
+        list.removeChild(list.children[2])
+        list.removeChild(list.children[0])
+    </script>
+
+</body>
+
+</html>

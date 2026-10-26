@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table border="1" id="detail">
+
+
+        <tr>
+            <th>xyz</th>
+            <th>27</th>
+        </tr>
+
+        <!-- <tr>
+            <td>abc</td>
+            <td>26</td>
+        </tr> -->
+
+    </table>
+
+
+    <script>
+        let tableDetalis = document.getElementById("detail")
+        console.log(tableDetalis)
+        let tr = document.createElement("tr")
+        let td1 = document.createElement("td")
+        let td2 = document.createElement("td")
+
+        td1.textContent = "abc"
+        td2.textContent = 23
+
+        tr.appendChild(td1)
+        tr.appendChild(td2)
+
+        tableDetalis.appendChild(tr)
+    </script>
+</body>
+
+</html>

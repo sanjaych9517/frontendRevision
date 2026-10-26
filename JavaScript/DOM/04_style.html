@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <button id="btn">Click Here</button> -->
+    <!-- Given three list items — HTML, CSS, and JavaScript — insert React before JavaScript. -->
+    <ul id="unOrder">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ul>
+
+    <div id="box">
+        <p id="para">This is a para </p>
+    </div>
+
+    <!-- Remove a paragraph with the ID para from its parent div using removeChild(). -->
+
+    <!-- Create a list with three items and remove the second item using removeChild(). -->
+
+    <ul id="lists">
+        <li>Node.JS</li>
+        <li>Express.JS</li>
+        <li>MongoDB</li>
+    </ul>
+
+    <!-- Given a div containing two paragraphs, remove the paragraph that says “Goodbye”. -->
+
+
+    <script>
+        // let button = document.getElementById("btn")
+        // btn.style.color = "red"
+        // btn.style.cssText = "color: blue; background-color:red"
+        // btn.setAttribute("style",
+        //     "color:green; border:3px solid red; padding:14px; border-radius:10px"
+        // )
+
+        let newNode = document.getElementById("unOrder")
+        let createElement = document.createElement("li")
+        createElement.textContent = "REACT"
+        let target = newNode.children[2]
+        newNode.insertBefore(createElement, target)
+
+
+        // <!-- Remove a paragraph with the ID para from its parent div using removeChild(). -->
+
+        let box = document.getElementById("box")
+        let para = document.getElementById("para")
+        box.removeChild(para)
+
+        let list = document.getElementById("lists")
+        list.removeChild(list.children[1])
+
+    </script>
+</body>
+
+</html>
