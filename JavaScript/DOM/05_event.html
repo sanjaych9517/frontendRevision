@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {
+            height: 300px;
+            width: 300px;
+        }
+
+        div {
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="https://thumbs.dreamstime.com/b/go-to-your-own-path-429805503.jpg" alt="" id="image">
+
+    <div id="div">
+
+    </div>
+
+    <button id="btn">click</button>
+    <script>
+        let image = document.querySelector("#image")
+        image.addEventListener("click", function () {
+            image.src = "https://st2.depositphotos.com/2001755/5408/i/950/depositphotos_54081917-stock-photo-beautiful-nature-landscape.jpg"
+        })
+
+
+        let btn = document.querySelector("#btn")
+        let div = document.querySelector("#div")
+        btn.addEventListener("click", function () {
+            div.style.backgroundColor = "red"
+        })
+
+    </script>
+
+
+</body>
+
+</html>
