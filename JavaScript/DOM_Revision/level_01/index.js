@@ -7,7 +7,7 @@
 // let a = document.querySelectorAll("div")
 // console.log(a)
 
-let falna = document.getElementById("falna");
-console.log(falna);
-console.log(falna.childNodes);
-console.log(falna.lastChild)
+// let falna = document.getElementById("falna");
+// console.log(falna);
+// console.log(falna.childNodes);
+// console.log(falna.lastChild)
