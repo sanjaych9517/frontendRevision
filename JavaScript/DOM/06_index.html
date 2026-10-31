@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change text</title>
+</head>
+
+<body>
+    <h1 class="heading">This is heading </h1>
+    <button class="btn">Click me</button>
+    <script>
+
+        //   create a button named click me change the heading to welcome to javascript
+
+        let btn = document.querySelector(".btn")
+        let heading = document.querySelector(".heading")
+        function changeHeading() {
+            heading.innerText = " welcome to javascript"
+        }
+        btn.addEventListener("click", changeHeading)
+    </script>
+</body>
+
+</html>

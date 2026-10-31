@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change background</title>
+</head>
+
+<body>
+
+
+    <button class="red">red</button>
+    <button class="green">Green</button>
+    <button class="yellow">Yellow</button>
+    <script>
+        let redBtn = document.querySelector(".red");
+        let greenBtn = document.querySelector(".green");
+        let yellowBtn = document.querySelector(".yellow");
+
+        let body = document.querySelector("body");
+
+        redBtn.addEventListener("click", function() {
+            body.style.backgroundColor = redBtn.innerText
+        })
+        greenBtn.addEventListener("click", function () {
+            body.style.backgroundColor = greenBtn.innerText
+        })
+        yellowBtn.addEventListener("click", function () {
+            body.style.backgroundColor = yellowBtn.innerText
+        })
+
+
+
+
+
+    </script>
+</body>
+
+</html>
