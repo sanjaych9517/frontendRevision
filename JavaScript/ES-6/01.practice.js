@@ -65,3 +65,25 @@ let newUsers = users.filter(
     user.isActive === true && user.subscription === "premium" && user.age > 25,
 );
 console.log(newUsers);
+
+
+// question on reduce
+
+// sum
+
+let arr = [1, 2, 3, 4, 5];
+let sum = arr.reduce((tot, num) => {
+  return tot + num;
+}, 0);
+console.log(sum);
+
+//  maximum number
+
+let numbers = [10, 25, 20, 80, 30];
+let maximum = numbers.reduce((max, num) => (num > max ? num : max));
+console.log(maximum);
+
+//  minimum number
+
+let minimum = numbers.reduce((min, num) => (num < min ? num : min));
+console.log(minimum);

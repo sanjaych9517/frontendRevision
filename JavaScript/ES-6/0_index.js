@@ -18,3 +18,8 @@
 //   .filter((book) => book.author.name === "Author A")
 //   .map((bookTitle) => bookTitle.title);
 // console.log(res);
+
+//  reduce() -> used to reduce array into single value
+
+
+
