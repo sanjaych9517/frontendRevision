@@ -102,4 +102,4 @@ let {name,salary,address:{city}} = emp2;
 
 const increase = salary => salary * 1.10;
 
-const result = `Name: ${name1} salary: ${increase(s1)} city: ${city1}`
+const result = `Name: ${name1} salary: ${increase(salary)} city: ${city1}`
